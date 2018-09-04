@@ -82,6 +82,12 @@
 
                   <textarea name="menssagem" rows="8" cols="80" placeholder="Escreva sua menssagem"></textarea>
                 </form>
+                <?php 
+                $msg = $_POST['menssagem'];
+                $assunto = $_POST['assunto'];
+                $email = $_POST['email'];
+                mail('lucas.palmieri@hotmail.com', $assunto, $msg);
+                ?>
               </div>
     </main>
 

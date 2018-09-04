@@ -2,8 +2,6 @@ main{
   text-align: center;
 }
 
-
-
 body{
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
@@ -42,4 +40,8 @@ li{
 
 .formulario{
   margin-top: 60px;
+}
+
+textarea{
+  resize: none;
 }
