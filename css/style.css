@@ -1,0 +1,45 @@
+main{
+  text-align: center;
+}
+
+
+
+body{
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: white !important;
+  background-image: url("../images/bg-img3.jpg");
+  background-attachment: fixed;
+}
+
+.jsImg{
+  -webkit-filter: blur(10px);
+}
+
+.sobre{
+  margin-top: 50px;
+}
+
+.experiencia{
+  margin-top: 50px;
+}
+
+.experiencia p{
+  text-align: left;
+}
+
+li{
+  text-align: left;
+}
+
+.linguagens{
+  margin-top: 50px;
+}
+
+.linguagens .linguagens_imgs{
+  margin-top: 30px;
+}
+
+.formulario{
+  margin-top: 60px;
+}
