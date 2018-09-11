@@ -31,6 +31,10 @@ li{
   text-align: left;
 }
 
+.exp{
+  margin-bottom: 40px;
+}
+
 .linguagens{
   margin-top: 50px;
 }
@@ -52,4 +56,8 @@ textarea{
 .btn-enviar{
   margin-left: 230px;
   margin-top: 30px;
+}
+
+.fab fa-github {
+  width: 200px !important;
 }

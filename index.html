@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">    
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <title>Lucas Palmieri</title>
   </head>
   <body>
@@ -15,6 +17,12 @@
         <img src="images/avatar.png" alt="imagem de perfil">
       </div>
 
+      <div class="contato col-12" style="margin-top: 10px;">
+        <a href="https://github.com/lucaspalmieri"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/lucas-palmieri/"><i class="fab fa-linkedin"></i></a>
+        <a href="tell:+5511989229007"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:lucas.palmieri@hotmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
 
       <div class="sobre col-4 offset-4">
         <article class="artcl_sobre">
@@ -24,21 +32,21 @@
       </div>
 
                 <div class="experiencia col-4 offset-4">
-                  <h2 class="col-4 offset-4">Experiência</h2>
+                  <h2 class="exp col-4 offset-4">Experiência</h2>
                   <ul>
-                    <p>Fábrica de Eventos</p>
+                    <p><b>Fábrica de Eventos</b></p>
                     <li>Consultor comerical de eventos corporativos e formaturas</li>
                     <li>Gestão da carteira de clientes, fidelização e prospecção</li>
                     <li>Análise de estratégias da concorrência e desenvolvimento de ações mais competitivas</li>
                   </ul>
                   <ul>
-                    <p>Brasil Excellence</p>
+                    <p><b>Brasil Excellence</b></p>
                     <li>Estratégias de merchandising no PDV</li>
                     <li>Avaliação de resultados nas ações promocionais</li>
                     <li>Treinamento de equipe</li>
                   </ul>
                   <ul>
-                    <p>BB Tecnologia e Serviços</p>
+                    <p><b>Tecnologia e Serviços</b></p>
                     <li>Estagiário</li>
                     <li>Analista de operações</li>
                   </ul>
@@ -65,7 +73,7 @@
                 </div>
               </div>
 
-              <div class=" formulario col-4 offset-4">
+              <!-- <div class=" formulario col-4 offset-4">
                 <h2>Contato</h2>
                 <form class="row" action="index.html" method="post">
 
@@ -82,7 +90,7 @@
 
                   <textarea name="menssagem" rows="8" cols="80" placeholder="Escreva sua menssagem"></textarea>
                   <input class="btn-enviar" type="submit" value="enviar">
-                </form>
+                </form> -->
                 <?php 
                 $msg = $_POST['menssagem'];
                 $assunto = $_POST['assunto'];
@@ -91,7 +99,6 @@
                 ?>
               </div>
     </main>
-
   </body>
 </html>
 
