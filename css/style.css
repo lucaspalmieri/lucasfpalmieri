@@ -58,6 +58,42 @@ textarea{
   margin-top: 30px;
 }
 
-.fab fa-github {
-  width: 200px !important;
+.html{
+  transition-duration: 1s;
+}
+
+.html:hover{
+  transform: scale(1.4,1.4)
+}
+
+.css{
+  transition-duration: 1s;
+}
+
+.css:hover{
+  transform: scale(1.4,1.4)
+}
+
+.php{
+  transition-duration: 1s;
+}
+
+.php:hover{
+  transform: scale(1.4,1.4)
+}
+
+.sql{
+  transition-duration: 1s;
+}
+
+.sql:hover{
+  transform: scale(1.4,1.4)
+}
+
+.js{
+  transition-duration: 1s;
+}
+
+.js:hover{
+  transform: scale(1.4,1.4)
 }
