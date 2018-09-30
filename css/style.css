@@ -11,8 +11,19 @@ body{
   background-attachment: fixed;
 }
 
-.jsImg{
-  -webkit-filter: blur(10px);
+.contato{
+  margin-top: 20px;
+}
+
+.contato i{
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+  transition-duration: 1s;
+}
+
+.contato i:hover{
+  transform: scale(2.0,2.0);
 }
 
 .sobre{
@@ -63,7 +74,7 @@ textarea{
 }
 
 .html:hover{
-  transform: scale(1.4,1.4)
+  transform: scale(1.4,1.4);
 }
 
 .css{
@@ -71,7 +82,7 @@ textarea{
 }
 
 .css:hover{
-  transform: scale(1.4,1.4)
+  transform: scale(1.4,1.4);
 }
 
 .php{
@@ -79,7 +90,7 @@ textarea{
 }
 
 .php:hover{
-  transform: scale(1.4,1.4)
+  transform: scale(1.4,1.4);
 }
 
 .sql{
@@ -87,7 +98,7 @@ textarea{
 }
 
 .sql:hover{
-  transform: scale(1.4,1.4)
+  transform: scale(1.4,1.4);
 }
 
 .js{
@@ -95,5 +106,5 @@ textarea{
 }
 
 .js:hover{
-  transform: scale(1.4,1.4)
+  transform: scale(1.4,1.4);
 }
