@@ -8,7 +8,7 @@ body{
   font-family: 'Ubuntu', sans-serif;
   color: white !important;
   background-image: url("../images/bg-img3.jpg");
-  background-attachment: fixed;
+  background-size: cover;
 }
 
 .contato{
@@ -36,6 +36,10 @@ body{
 
 .experiencia p{
   text-align: left;
+}
+
+.listas{
+  margin: auto;
 }
 
 li{
@@ -107,4 +111,23 @@ textarea{
 
 .js:hover{
   transform: scale(1.4,1.4);
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1.8s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

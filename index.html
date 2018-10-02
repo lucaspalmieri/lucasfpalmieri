@@ -8,52 +8,59 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="icon" href="images/favicon-code.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Lucas Palmieri</title>
   </head>
   <body>
 
-    <main class="row">
+    <main class="container fadeIn">
 
-      <div class="img_perfil col-12">
+      <div class="img_perfil col-12" data-aos="fade-down">
         <img src="images/avatar.png" alt="imagem de perfil">
       </div>
 
-      <div class="contato col-12">
+      <div class="contato col-12" data-aos="fade-down">
         <a href="https://github.com/lucaspalmieri"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/lucas-palmieri/"><i class="fab fa-linkedin"></i></a>
         <a href="tell:+5511989229007"><i class="fab fa-whatsapp"></i></a>
         <a href="mailto:lucas.palmieri@hotmail.com"><i class="fas fa-envelope"></i></a>
       </div>
 
-      <div class="sobre col-4 offset-4">
-        <article class="artcl_sobre">
-          <p>Desenvolvedor front/back end junior cursando na Digital House São Paulo e tambem profissional graduado em Publicidade e Propaganda pela Universidade Anhembi Morumbi.
-          Habilidades com HTML5, CSS, PHP, JS, MySQL. Experiência com framework Laravel e metodologia ágil Scrum, atuando como Scrum Master, Product Owner e desenvolvedor.</p>
-        </article>
+      <div class="sobre container">
+        <div class="d-flex justify-content-center">
+          <div class="artcl_sobre col-8">
+            <p>Desenvolvedor front/back end junior cursando na Digital House São Paulo e tambem profissional graduado em Publicidade e Propaganda pela Universidade Anhembi Morumbi.
+            Habilidades com HTML5, CSS, PHP, JS, MySQL. Experiência com framework Laravel e metodologia ágil Scrum, atuando como Scrum Master, Product Owner e desenvolvedor.</p>
+            </div>
+        </div>
       </div>
 
-                <div class="experiencia col-4 offset-4">
-                  <h2 class="exp col-4 offset-4">Experiência</h2>
-                  <ul>
-                    <p><b>Fábrica de Eventos</b></p>
-                    <li>Consultor comerical de eventos corporativos e formaturas</li>
-                    <li>Gestão da carteira de clientes, fidelização e prospecção</li>
-                    <li>Análise de estratégias da concorrência e desenvolvimento de ações mais competitivas</li>
-                  </ul>
-                  <ul>
-                    <p><b>Brasil Excellence</b></p>
-                    <li>Estratégias de merchandising no PDV</li>
-                    <li>Avaliação de resultados nas ações promocionais</li>
-                    <li>Treinamento de equipe</li>
-                  </ul>
-                  <ul>
-                    <p><b>Tecnologia e Serviços</b></p>
-                    <li>Estagiário</li>
-                    <li>Analista de operações</li>
-                  </ul>
+                <div class="experiencia container">
+                  <h2 class="exp">Experiência</h2>
+                  <div class="d-inline-block">
+                    <div class="listas col-8">
+                      <ul>
+                        <p><b>Fábrica de Eventos</b></p>
+                        <li>Consultor comerical de eventos corporativos e formaturas</li>
+                        <li>Gestão da carteira de clientes, fidelização e prospecção</li>
+                        <li>Análise de estratégias da concorrência e desenvolvimento de ações mais competitivas</li>
+                      </ul>
+                      <ul>
+                        <p><b>Brasil Excellence</b></p>
+                        <li>Estratégias de merchandising no PDV</li>
+                        <li>Avaliação de resultados nas ações promocionais</li>
+                        <li>Treinamento de equipe</li>
+                      </ul>
+                      <ul>
+                        <p><b>Tecnologia e Serviços</b></p>
+                        <li>Estagiário</li>
+                        <li>Analista de operações</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
 
-              <div class="linguagens container">
+              <div class="linguagens container" data-aos="fade-up">
                 <h1 class="col-4 offset-4">Linguagens</h1>
                 <div class="linguagens_imgs row">
                   <div class="col-3">
@@ -100,6 +107,11 @@
                 ?>
               </div>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
 
