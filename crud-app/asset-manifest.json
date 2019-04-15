@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.3d9b7c4c.chunk.css",
-  "main.js": "/static/js/main.35a57c2c.chunk.js",
-  "main.js.map": "/static/js/main.35a57c2c.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.74462cb6.chunk.js": "/static/js/2.74462cb6.chunk.js",
-  "static/js/2.74462cb6.chunk.js.map": "/static/js/2.74462cb6.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.1435c046330c3b29bc9f191abebe1059.js": "/precache-manifest.1435c046330c3b29bc9f191abebe1059.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.3d9b7c4c.chunk.css.map": "/static/css/main.3d9b7c4c.chunk.css.map"
+  "main.css": "/crud-app/static/css/main.3d9b7c4c.chunk.css",
+  "main.js": "/crud-app/static/js/main.35a57c2c.chunk.js",
+  "main.js.map": "/crud-app/static/js/main.35a57c2c.chunk.js.map",
+  "runtime~main.js": "/crud-app/static/js/runtime~main.aac2cc1a.js",
+  "runtime~main.js.map": "/crud-app/static/js/runtime~main.aac2cc1a.js.map",
+  "static/js/2.74462cb6.chunk.js": "/crud-app/static/js/2.74462cb6.chunk.js",
+  "static/js/2.74462cb6.chunk.js.map": "/crud-app/static/js/2.74462cb6.chunk.js.map",
+  "index.html": "/crud-app/index.html",
+  "precache-manifest.f917c8dce2eddd91e7332579071984b2.js": "/crud-app/precache-manifest.f917c8dce2eddd91e7332579071984b2.js",
+  "service-worker.js": "/crud-app/service-worker.js",
+  "static/css/main.3d9b7c4c.chunk.css.map": "/crud-app/static/css/main.3d9b7c4c.chunk.css.map"
 }
