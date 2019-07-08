@@ -13,6 +13,6 @@
     "service-worker.js": "/service-worker.js",
     "static/css/2.a7e68daa.chunk.css.map": "/static/css/2.a7e68daa.chunk.css.map",
     "static/css/main.49ac85c3.chunk.css.map": "/static/css/main.49ac85c3.chunk.css.map",
-    "static/media/profile.jpg": "static/media/profile.0f542923.jpg"
+    "static/media/profile.jpg": "/static/media/profile.0f542923.jpg"
   }
 }
