@@ -19,7 +19,7 @@ Service.LandingPage = props => {
         <FaCode />
       </div>
       <Span>Web Pages</Span>
-      <P>Web Pages made with ReactJs, static templates with EJS or JadeJs.</P>
+      <P>Web Pages made with React, static templates with EJS or JadeJs.</P>
     </StyledSubmit>
   );
 };

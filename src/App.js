@@ -12,7 +12,7 @@ import "./App.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-console.log(window.location)
+window.location.href = "/"
 
 function App() {
   return (
@@ -30,10 +30,10 @@ function App() {
                 </Col>
                 <Col md={12}>
                   <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/Resume" component={Resume} />
-                    <Route path="/Portfolio" component={Portfolio} />
-                    <Route path="/Contact" component={Contact} />
+                    <Route path="./" exact component={Home} />
+                    <Route path="./Resume" component={Resume} />
+                    <Route path="./Portfolio" component={Portfolio} />
+                    <Route path="./Contact" component={Contact} />
                   </Switch>
                 </Col>
               </Row>
