@@ -1,8 +1,8 @@
 import React from "react";
 import SideMenu from "./components/SideMenu";
 import Header from "./components/Header";
-import Home from "./components/Home";
-import Resume from "./components/Resume";
+import Home from "./Home/Home";
+import Resume from "./Resume/Resume";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
@@ -11,7 +11,6 @@ import "./App.css";
 
 import { Container, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 
 function App() {
   return (
@@ -29,10 +28,10 @@ function App() {
                 </Col>
                 <Col md={12}>
                   <Switch>
-                    <Route path="./" exact component={Home} />
-                    <Route path="./Resume" component={Resume} />
-                    <Route path="./Portfolio" component={Portfolio} />
-                    <Route path="./Contact" component={Contact} />
+                    <Route path="/" exact component={Home} />
+                    <Route path="/Resume" component={Resume} />
+                    <Route path="/Portfolio" component={Portfolio} />
+                    <Route path="/Contact" component={Contact} />
                   </Switch>
                 </Col>
               </Row>

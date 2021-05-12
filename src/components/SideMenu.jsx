@@ -14,7 +14,7 @@ export default function SideMenu(props) {
     width: "25px",
     borderRadius: "50px",
     marginLeft: "10px",
-    padding: "4px"
+    padding: "4px",
   };
 
   const DownloadPDF = () => {
@@ -55,14 +55,14 @@ export default function SideMenu(props) {
             </Key>
           </li>
         </Ul>
-        <DivButton>
+        {/* <DivButton>
           <Link to="/docs/resume.pdf" target="_blank">
             <Button>
               Download Cv
               <IoMdDownload style={styledButton} onClick={DownloadPDF} />
             </Button>
           </Link>
-        </DivButton>
+        </DivButton> */}
       </Wrapper>
     </React.Fragment>
   );

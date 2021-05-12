@@ -8,7 +8,7 @@ import styled from "styled-components";
 
 export default function Header(props) {
   const StyledLink = {
-    color: "black"
+    color: "black",
   };
 
   const BtnHireMe = {
@@ -16,22 +16,23 @@ export default function Header(props) {
     background: "#ffc500",
     borderRadius: "50px",
     padding: "10px",
-    cursor: "pointer"
-  }
+    cursor: "pointer",
+  };
 
   const StyleRow = {
-    height: "100%"
+    height: "100%",
+    justifyContent: "space-between",
   };
 
   const StyleNav = {
-    flexWrap: "nowrap"
+    flexWrap: "nowrap",
   };
 
   return (
     <React.Fragment>
       <Wrapper>
         <Row style={StyleRow}>
-          <Col md={8} sm={8} xs={9}>
+          <Col md={7}>
             <Nav style={StyleNav}>
               <Home>
                 <Link style={StyledLink} to="/">
@@ -51,7 +52,7 @@ export default function Header(props) {
               </Link>
             </Nav>
           </Col>
-          <Col className="d-flex justify-content-end" md={4} sm={4} xs={3}>
+          <Col className="d-none d-md-flex justify-content-end" md={5}>
             <SocialMedia>
               <LinkStyled href="https://www.linkedin.com/in/lucas-palmieri/">
                 <FaLinkedin />
@@ -59,10 +60,10 @@ export default function Header(props) {
             </SocialMedia>
             <Button>
               <Link style={BtnHireMe} to="/Contact">
-                  Hire me
-                  <Span>
-                    <FaTelegramPlane />
-                  </Span>
+                Hire me
+                <Span>
+                  <FaTelegramPlane />
+                </Span>
               </Link>
             </Button>
           </Col>
@@ -101,7 +102,7 @@ const Div = styled.div`
 const Button = styled.div`
   margin: 18px 18px 0 5px;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
