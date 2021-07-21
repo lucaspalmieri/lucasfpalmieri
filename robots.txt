@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://lucaspalmieri.github.io/sitemap.xml
