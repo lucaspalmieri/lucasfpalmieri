@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e994fef4.chunk.css",
-    "main.js": "/static/js/main.1db6f482.chunk.js",
-    "main.js.map": "/static/js/main.1db6f482.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.1801a4fa.chunk.js": "/static/js/2.1801a4fa.chunk.js",
-    "static/js/2.1801a4fa.chunk.js.map": "/static/js/2.1801a4fa.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2e575e3aa7bc600b9680b06934efc71e.js": "/precache-manifest.2e575e3aa7bc600b9680b06934efc71e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.e994fef4.chunk.css.map": "/static/css/main.e994fef4.chunk.css.map",
-    "static/media/profile.jpg": "/static/media/profile.0f542923.jpg"
+    "main.css": "/lucaspalmieri.github.io/static/css/main.e994fef4.chunk.css",
+    "main.js": "/lucaspalmieri.github.io/static/js/main.9d3daa4b.chunk.js",
+    "main.js.map": "/lucaspalmieri.github.io/static/js/main.9d3daa4b.chunk.js.map",
+    "runtime~main.js": "/lucaspalmieri.github.io/static/js/runtime~main.c50869ec.js",
+    "runtime~main.js.map": "/lucaspalmieri.github.io/static/js/runtime~main.c50869ec.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/lucaspalmieri.github.io/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.c245f6aa.chunk.js": "/lucaspalmieri.github.io/static/js/2.c245f6aa.chunk.js",
+    "static/js/2.c245f6aa.chunk.js.map": "/lucaspalmieri.github.io/static/js/2.c245f6aa.chunk.js.map",
+    "index.html": "/lucaspalmieri.github.io/index.html",
+    "precache-manifest.45a159126e23302e96ec346c68907178.js": "/lucaspalmieri.github.io/precache-manifest.45a159126e23302e96ec346c68907178.js",
+    "service-worker.js": "/lucaspalmieri.github.io/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/lucaspalmieri.github.io/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.e994fef4.chunk.css.map": "/lucaspalmieri.github.io/static/css/main.e994fef4.chunk.css.map",
+    "static/media/profile.jpg": "/lucaspalmieri.github.io/static/media/profile.0f542923.jpg"
   }
 }
